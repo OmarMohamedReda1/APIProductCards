@@ -1,0 +1,75 @@
+
+* { box-sizing: border-box; }
+html, body { height: 110%; }
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: linear-gradient(90deg, #a1ffce, #faffd1);
+
+
+  display: grid;
+  place-items:center;
+}
+
+
+body {
+  margin: 20px;
+  
+}
+
+.container {
+    margin-top: -500px;
+max-width: 1200px;
+max-height: 1500px;
+border-radius: 30px;
+word-wrap: break-word; 
+text-align: center;
+margin-left: 0;   
+overflow-x: auto;
+background-color: rgba(255, 255, 255, 0.85);
+box-shadow:
+    0 6px 0 #0b0e13,
+    0 14px 18px rgba(0,0,0,.45),
+    inset 0 1px 0 rgba(255,255,255,.04);
+
+    
+}
+
+button {
+  margin: 20px;
+  padding: 10px;
+  background-color:#007BFF;
+  color: #ffffff;
+  font-family:'Poppins', sans-serif;
+}
+
+.section1 {
+  border: 2px solid 007BFF;
+  padding: 20px;
+  margin: 0;
+}
+
+.output {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.output .card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
